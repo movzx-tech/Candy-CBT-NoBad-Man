@@ -1,0 +1,24 @@
+Masukan Perintah SQL Query ini di menu
+*Jika Menggunakan Phpmyadmin di Menu SQL
+*Jika Menggunakan SQLyog di Menu Query''
+*Masukan Perintah Querynya Satu-satu 
+
+Copy Paster semua dan kemudian di jalankan atau kirim
+------------------------------------------------------------------
+
+ALTER TABLE absensi ADD absKeterangan TEXT; 
+
+ALTER TABLE absensi_mapel_anggota ADD amaKeterangan TEXT;
+
+
+/*Untuk Tambah Kolom Mainten Login Siswa pada Tabel Setting*/
+ALTER TABLE setting ADD LoginSiswaMainten INT(1) NULL DEFAULT 0 COMMENT 'Mainten Login Siswa';
+
+/*Untuk Tambah Kolom kode_mapel pada Tabel Mapel*/
+ALTER TABLE mapel ADD KodeMapel VARCHAR(100) NULL COMMENT 'Kode Mata Pelajaran';
+
+/*Untuk Tambah Kolom Tabel Setting  08-9-2020*/ 
+ALTER TABLE setting ADD IsiPesanSingkat VARCHAR(200) NULL COMMENT 'Isi Pesan Singkat Login Siswa';
+ALTER TABLE setting ADD JudulPesanSingkat VARCHAR(100) NULL COMMENT 'Judul Pesan Singkat Login Siswa';
+
+------------------------------------------------------------------ 

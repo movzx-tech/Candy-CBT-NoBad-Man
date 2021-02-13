@@ -1,0 +1,6 @@
+{
+    "require": {
+
+        "Phpfastcache/Phpfastcache": "^8.0"
+    }
+}

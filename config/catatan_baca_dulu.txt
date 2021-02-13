@@ -1,0 +1,19 @@
+ganti nama database pada
+di sesuaikan dengan nama database di hosting
+
+Setting juga untuk http atau https web anda
+
+-----------------------------
+silahkan setting 2 file ini
+
+setting_database.php
+setting_url.php
+-------------------------------
+
+Jangan Lupa Hapus File Di Folder Crew
+ifm.php
+ifm2.php
+
+dan hapus file install.php 
+dan hapus database.sql di folder config
+
